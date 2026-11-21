@@ -114,44 +114,44 @@ print(checkval in pet);
 #print Method
 
 
-s= ' hello world ';
-NewStr = s.strip();
-print(s);
-print(s.strip().lower().upper()); #method chaining
-print(s.lower());
-print(s.title());
-print(s.replace("world","java"));
-print(s.split(','))
-print(NewStr.find('world'));
-print(NewStr.count('w'));
-print(NewStr .startswith('h'));
-print(NewStr.endswith('n'));
-print(len(NewStr));
+# s= ' hello world ';
+# NewStr = s.strip();
+# print(s);
+# print(s.strip().lower().upper()); #method chaining
+# print(s.lower());
+# print(s.title());
+# print(s.replace("world","java"));
+# print(s.split(','))
+# print(NewStr.find('world'));
+# print(NewStr.count('w'));
+# print(NewStr .startswith('h'));
+# print(NewStr.endswith('n'));
+# print(len(NewStr));
 
 
-name,marks = "naveen",'48';
-# print(name,marks);
-print(f'(name) has scored (marks)');
-print('{} scored {}'. format(name,marks));
-# print ('%s scored %d' % (name,marks));
+# name,marks = "naveen",'48';
+# # print(name,marks);
+# print(f'(name) has scored (marks)');
+# print('{} scored {}'. format(name,marks));
+# # print ('%s scored %d' % (name,marks));
 
 
-# escape charactors
-#\n new line
-str = 'naveen\\rawat'
-# print(str)
+# # escape charactors
+# #\n new line
+# str = 'naveen\\rawat'
+# # print(str)
 
-# immutabitlity
-# strl = 'cat';
-# strl[0] ='n'
-str2 = str1;
-str1 ='cat123'
-print(str1 ,str2)
+# # immutabitlity
+# # strl = 'cat';
+# # strl[0] ='n'
+# str2 = str1;
+# str1 ='cat123'
+# print(str1 ,str2)
 
-print('naveen'[1:-4]);
-print('school'[::-1])
-str3 = '123'
-# print(str3==str3[::-1]);
+# print('naveen'[1:-4]);
+# print('school'[::-1])
+# str3 = '123'
+# # print(str3==str3[::-1]);
 
 # how we can get input
 
@@ -184,3 +184,59 @@ str3 = '123'
     # ternary opeartor
 # status = 'pass' if marks >= 40 else 'fail';
 # print(status)
+# y = int(input('enter number:'));
+# if y >0 :
+#     print("postive");
+# elif whether <0 :
+#     print("Negative");
+# else : ("Zero");
+
+
+# for i in range (1,30):
+#  if i % 4 == 0:
+#   print("even");
+# else:
+#     print("odd");
+# num1 =int(input("phela number:"));
+# num2 = int(input("dushra number:"));
+# if num2 > num1 :
+#     print("phela number");
+# elif num1 < num2 :
+#     print("dushra number");
+# else: 
+#     print("dono barabar hain");
+# num1 =int(input("phela number:"));
+# num2 = int(input("dushra number:"));
+# num3 = int(input("khhatam number:"))
+# if num3 > num2 :
+#     print("phela number");
+# elif num2 > num1 :
+#     print("dusra number");
+# elif num2 < num1 :
+#     print("khhatam number");
+# else: 
+#     print("dono barabar hain");
+# age = int(input("enter your age :"));
+# if age >=18:
+#     print(" bhai ab desh ka pardhan mantari chunega");
+# else:
+#     print("18 ka hoja phele");
+# age = int(input("enter your age :"));
+# if age >=18:
+#     print(" aaj gaadi tera bhai chalayega");
+# else:
+#     print("beta balig hoja phele");
+
+year = int(input("Enter a year: "))
+
+if year % 400 == 0:
+    print("Leap Year")
+
+elif year % 100 == 0:
+    print("Not a Leap Year")
+
+elif year % 4 == 0:
+    print("Leap Year")
+
+else:
+    print("Not a Leap Year")
