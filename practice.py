@@ -86,7 +86,18 @@
 # while i <= 5:
 #     print(i)
 #     i += 1
-name = "Naveen"
-print(name.upper())
-print(name.lower())
-print(len(name))
+# name = "Naveen"
+# print(name.upper())
+# print(name.lower())
+# print(len(name))
+# ages = [20, 25, 30, 35]
+# print(ages)
+# print(ages[0])
+# ages =[23,43,40,28,24,25]
+# ages.sort()
+# print(ages)
+for i in range(1,12):
+    if i % 4 ==0:
+        print("even")
+    else:
+      print("odd")
